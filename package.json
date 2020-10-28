@@ -9,8 +9,10 @@
     "ed-grid": "^3.0.1",
     "edteam-style-guides": "0.0.73",
     "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
     "react-scripts": "3.4.3"
   },
   "scripts": {
