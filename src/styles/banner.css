@@ -1,0 +1,28 @@
+.btn-p{
+   background:  #9b7a56;
+
+}
+.btn-p:hover{
+    text-decoration: none;
+    background:  #b09a6b;
+ }
+ .btn-s{
+border: 1px solid #9b7a56;
+color: white;
+
+ }
+
+ .btn-s:hover{
+    background:  #9b7a56;
+
+ }
+ .question{
+   text-shadow: 0.2px 0.5px 0.2px white;
+     color:#9b7a56;
+ }
+.container-btn{
+    cursor: pointer;
+    transform-style: none;
+    text-decoration: none;
+    outline-style: none;
+}
