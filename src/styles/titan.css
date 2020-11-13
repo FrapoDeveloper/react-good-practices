@@ -1,6 +1,6 @@
 .info-titan{
     display: flex;
-    align-items: start;
+   
     flex-direction: column;
 
 }
@@ -14,9 +14,16 @@
 }
 .power{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-bottom: 1em;
+}
+.start{
+    padding-left: 0.5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1.5em;
 }
 
 .power>img{
