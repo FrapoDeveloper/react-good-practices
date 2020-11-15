@@ -1,10 +1,10 @@
 import React from 'react'
 import Cardpersonaje from '../Molecules/cardpersonaje'
 import withloader from '../Hoc/withloader.js'
-const Personajescontainer = ({cursos}) => (
+const Personajescontainer = ({personajes}) => (
 <div  className="ed-grid  grid-container s-mt-4 m-grid-2 s-grid-1 xl-grid-4 lg-grid-3 center">
         
-       { cursos.map(c => (
+       { personajes.map(c => (
           <Cardpersonaje 
             id = {c.id}
             nombre = {c.nombre}
@@ -18,4 +18,4 @@ const Personajescontainer = ({cursos}) => (
         
 </div>
 )
-export default withloader("cursos")(Personajescontainer)
+export default withloader("personajes")(Personajescontainer)

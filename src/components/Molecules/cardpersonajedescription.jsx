@@ -1,8 +1,8 @@
 import React from "react";
-import ReactPlayer from 'react-player'
+
 import '../../styles/style.css'
 const Cardpersonajedes = ({ personajeActual }) => (
-  <article className="s-shadow-bottom">
+  <article className="">
     <div className="ed-grid  m-grid-5 s-gap-2 m-pxy-2 s-bg-white s-radius-tl s-radius-tr">
       <div className="m-cols-2 img-container s-ratio-16-9 s-radius-tl s-radius-tr m-radius">
         <img src={personajeActual.gif} alt={personajeActual.nombre} />
@@ -24,12 +24,7 @@ const Cardpersonajedes = ({ personajeActual }) => (
 
     <div className="video-react">
   
-        <ReactPlayer
-          url={personajeActual.video}
-          className='react-player'
-          playing="true"
-          controls = "false"
-        />
+     
    
     </div>
 

@@ -15,12 +15,11 @@ const Footer = () => (
         </div>
  
 		<p className="footer-links">
-		<a href="#"></a>
-		<a href="#">Sitio Web</a>
+		<a href="https://github.com/FranEspino/">Sitio Web</a>
 	
-		<a href="#">Contacto</a>
+		<a href="https://github.com/FranEspino/">Contacto</a>
 	
-		<a href="#">Blog</a>
+		<a href="https://github.com/FranEspino/">Blog</a>
 		</p>
  
 		<p className="footer-company-name">Todos los derechos reservados  &copy; 2019</p>

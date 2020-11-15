@@ -3,11 +3,11 @@ import React, { Component } from "react";
 import Personajescontainer from "../Organisms/personajescontainer";
 import "../../styles/characters.css";
 
-class Characters extends Component {
+class Personajes extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cursos: [],
+      personajes: [],
     };
   }
 
@@ -17,14 +17,14 @@ class Characters extends Component {
     ).then((response) => {
       //resolvemos la promesa
       this.setState({
-        cursos: response.data,
+        personajes: response.data,
       });
     });
   }
 
   render() {
-    const { cursos } = this.state; //destructuracion de objetos
-    return <Personajescontainer cursos={cursos} />;
+    const { personajes } = this.state; //destructuracion de objetos
+    return <Personajescontainer personajes={personajes} />;
   }
 }
-export default Characters;
+export default Personajes;

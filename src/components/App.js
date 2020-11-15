@@ -6,6 +6,7 @@ import Footer from '../components/Organisms/footer'
 import Personajes from './Pages/personajes.jsx'
 import Titanes from './Pages/titanes.jsx'
 import Personajedescription from './Pages/personajedescription.jsx'
+import Titandescription from './Pages/titandescription'
 import Header from '../components/Organisms/header.jsx'
 import Home from '../components/Pages/home.jsx'
 import Pagenotfound from './Pages/pagenotfound'
@@ -20,6 +21,7 @@ const App =  () =>
           <Route path="/personajes" exact component={Personajes} /> 
           <Route path="/personajes/:id" exact component={Personajedescription} /> 
           <Route path="/titanes" exact component={Titanes} />
+          <Route path="/titanes/:id" exact component={Titandescription} />
           <Route component={() =>(
             <div className=" container-animation not ed-grid grid-container s-mt-4 m-grid-2 s-grid-1 xl-grid-4 lg-grid-3 center ">
               <Pagenotfound />

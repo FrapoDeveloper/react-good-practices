@@ -6,9 +6,10 @@ import Loader from "../Atoms/loader";
 
 const Personajedescription = ({ match }) => {
   const [state, setState] = useState({});
+  const personajeid = match.params.id
   useEffect(() => {
     Axios.get(
-      `https://my-json-server.typicode.com/FrapoDeveloper/json-db/personajes/${match.params.id}`
+      `https://my-json-server.typicode.com/FrapoDeveloper/json-db/personajes/${personajeid}`
     ).then((response) => {
       //resolvemos la promesa
       setState(response.data);
